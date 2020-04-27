@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="dzn_Rifle_Tripod">
+	<Package name="dzn_Rifle_Tripod">
+		<Container name="Settings">
+			<!--
+			SETTINGS
+			-->
+			<Key ID="STR_Rifle_Tripod_Enabled">
+				<Original>Deployed effect enabled</Original>
+			</Key>
+			<Key ID="STR_Rifle_Tripod_Enabled_desc">
+				<Original>Enables force scope horizontal alignment when deployed using tripod</Original>
+			</Key>
+
+			<Key ID="STR_Rifle_Tripod_EnableAimCoef">
+				<Original>Affect aim sway on deployed</Original>
+			</Key>
+			<Key ID="STR_Rifle_Tripod_EnableAimCoef_desc">
+				<Original>Enables custom aim sway coefficient when rifle is deployed using tripod</Original>
+			</Key>
+				
+			<Key ID="STR_Rifle_Tripod_DeployedAimCoef">
+				<Original>Deployed Aim sway coefficient</Original>
+			</Key>
+			<Key ID="STR_Rifle_Tripod_DeployedAimCoef_desc">
+				<Original>Custom aim sway coefficient when rifle deployed using tripod</Original>
+			</Key>
+			
+		</Container>
+	</Package>
+</Project>
