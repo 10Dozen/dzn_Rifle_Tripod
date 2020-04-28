@@ -7,13 +7,20 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CBA_MAIN","asdg_jointrails"};
 		author = "10Dozen";
-		version = "1";
+		version = "1.1";
 	};
 };
 
+class Extended_PreInit_EventHandlers
+{
+	class dzn_Rifle_Tripod
+	{
+		init = 'call compile preprocessFileLineNumbers "\dzn_Rifle_Tripod\settings.sqf"; call compile preprocessFileLineNumbers "\dzn_Rifle_Tripod\functions.sqf";'
+	};
+};
 class Extended_PostInit_EventHandlers
 {
-	class dzn_rifle_Tripod
+	class dzn_Rifle_Tripod
 	{
 		init = call compile preprocessFileLineNumbers "\dzn_Rifle_Tripod\Init.sqf";
 	};
@@ -31,7 +38,6 @@ class asdg_UnderSlot: asdg_SlotInfo
 };
 
 class CowsSlot;
-
 class CfgWeapons
 {
 	class ItemCore;
