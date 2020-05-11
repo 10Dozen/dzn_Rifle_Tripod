@@ -78,5 +78,5 @@ private _addKey = {
 	"AdjustBipod"
 	, "AdjustBipod"
 	, { call GVAR(fnc_adjustBipod); (vehicle player == player) }
-	, [47, [false, false, true]]
+	, [46, [false, false, true]]
 ] call _addKey;
