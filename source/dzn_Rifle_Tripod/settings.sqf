@@ -47,7 +47,7 @@ private _add = {
 [
 	"AllowForAllBipods"
 	, "CHECKBOX"
-	, false
+	, true
 ] call _add;
 
 [
