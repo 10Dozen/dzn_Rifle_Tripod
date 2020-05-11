@@ -26,6 +26,27 @@
 				<Original>Custom aim sway coefficient when rifle deployed using tripod</Original>
 			</Key>
 			
+			<Key ID="STR_Rifle_Tripod_AllowForAllBipods">
+				<Original>Enable anti-tilt for all bipods</Original>
+			</Key>
+			<Key ID="STR_Rifle_Tripod_AllowForAllBipods_desc">
+				<Original>Enables force scope horizontal alignment for any bipod (use hotkey to apply)</Original>
+			</Key>
+			
+			<Key ID="STR_Rifle_Tripod_AllowedBipods">
+				<Original>Allow anti-tilt for</Original>
+			</Key>
+			<Key ID="STR_Rifle_Tripod_AllowedBipods_desc">
+				<Original>List of bipods with enabled force scope horizontal alignment (use hotkey to apply)</Original>
+			</Key>
+			
+			<Key ID="STR_Rifle_Tripod_AdjustBipod">
+				<Original>Adjust bipod</Original>
+			</Key>
+			<Key ID="STR_Rifle_Tripod_AdjustBipod_desc">
+				<Original>Adjust bipod to remove weapon tilt</Original>
+			</Key>
+			
 		</Container>
 	</Package>
 </Project>
